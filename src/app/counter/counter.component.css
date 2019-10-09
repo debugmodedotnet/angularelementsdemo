@@ -1,0 +1,20 @@
+
+.incbutton{
+    height: 200px;
+    width : 150px;
+    background-color: red;
+    font-size: 80px
+}
+
+
+
+.decbutton{
+    height: 200px;
+    width : 150px;
+    background-color: green;
+    font-size: 80px
+}
+
+.inptnumber {
+    font-size: 80px;
+}

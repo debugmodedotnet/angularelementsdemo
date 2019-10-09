@@ -1,0 +1,22 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Elements</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <app-counter count=1000></app-counter>
+    <script type="text/javascript" src="dj-counter.js"></script>
+    <script>
+        var counter = document.querySelector('app-counter');
+        counter.addEventListener('incevent', function (event) {
+             console.log('action emitted: ' + event.detail);   
+             //counter.count = 0;      
+         });
+        
+    </script>
+  </body>
+</html>
