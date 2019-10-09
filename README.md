@@ -1,27 +1,41 @@
-# Counterelment
+# Angular Element  Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.1.
+## run dependency 
 
-## Development server
+`npm install`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+`ng add @angular/elements --project=counterelment`
 
-## Code scaffolding
+where counterelment is name of the project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+then run 
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+`npm install --save-dev concat fs-extra`
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Create a folder 
 
-## Running end-to-end tests
+Create a folder called `elements` in the root of the project 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## running the application 
+
+Run `npm run build:elements` to build the project. The build artifacts will be stored in the `elements/` directory. 
+
+after that install 
+
+`npm install -g static-server`
+
+
+## Running Aangular Element on HTML 
+
+
+change directory to elements and inside that run command 
+
+`static-server`
+
+You should find project running on port 9080
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Reach me at debugmode@outlook.com or @debug_mode for further discussion 
